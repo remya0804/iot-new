@@ -1,0 +1,81 @@
+
+        {/* Sensor 2: Pump 1 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 1</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[1])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[1] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 3: Pump 2 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 2</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[2])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[2] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 4: Pump 3 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 3</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[3])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[3] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 5: Pump 4 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 4</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[4])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[4] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 6: Pump 5 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 5</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[5])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[5] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 7: Pump 6 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 6</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[6])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[6] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 8: Pump 7 */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Pump 7</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[7])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[7] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+
+        {/* Sensor 9: Rectifier */}
+        <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center">
+          <div className="text-xl font-semibold text-center mb-4">Rectifier</div>
+          <div
+            className={`w-16 h-16 flex items-center justify-center rounded-full ${renderSensorColor(sensors[8])}`}
+          >
+            <p className="text-white font-bold text-lg">{sensors[8] ? 'ON' : 'OFF'}</p>
+          </div>
+        </div>
+      </div>
